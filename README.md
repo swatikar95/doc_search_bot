@@ -5,9 +5,11 @@ This project implements a chatbot using Streamlit and Langchain to provide inter
 ## Installation
 
 To run this project locally, clone the repository and install the required dependencies:
+
 git clone [repository-url]
 cd [repository-folder]
 pip install -r requirements.txt
 
 Run the Streamlit application using the following command:
+
 streamlit run main.py
