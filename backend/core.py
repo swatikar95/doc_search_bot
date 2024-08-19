@@ -20,7 +20,7 @@ def run_llm(query:str, chat_history:list[dict[str,Any]]=[])->Any:
     #     chain_type="stuff",
     #     retriever=dosearch.as_retriever(),
     #     return_source_documents=True
-    #     )
+    #     )A
     
     qa = ConversationalRetrievalChain.from_llm(llm=chat,retriever=dosearch.as_retriever(),return_source_documents=True)
     return qa({"question":query, "chat_history":chat_history})
